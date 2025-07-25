@@ -4,3 +4,4 @@ packages:
   - "packages/*"
   - "packages/react-email/dev"
   - "playground"
+  - "reproductions/*"

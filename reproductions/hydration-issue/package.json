@@ -1,0 +1,23 @@
+{
+  "name": "hydration-issue-repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@react-email/render": "file:../../packages/render",
+    "@react-email/components": "file:../../packages/components"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "typescript": "^5.8.3"
+  }
+}
